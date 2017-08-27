@@ -1,0 +1,1 @@
+export const CONTEST_SUBMIT = 'contest_submit';

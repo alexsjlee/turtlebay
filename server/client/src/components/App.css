@@ -1,0 +1,144 @@
+.miniNav {
+  background-color: black;
+  font-size: .5em;
+  height: 2.3vh;
+  padding: 0;
+  font-weight: bold;
+}
+
+.minilogo {
+  padding: 0 3px;
+  transform: translateY(-2px);
+  height: 2.2vh;
+  width: auto;
+}
+
+.miniBrand {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.miniBtns {
+  float: right;
+}
+
+.searchBtn {
+  border: none;
+  border-left: .5px solid white;
+  border-right: .5px solid white;
+  color: #fff;
+  background-color: black;
+}
+
+.accountBtn {
+  border: none;
+  border-right: .5px solid white;
+  color: #fff;
+  background-color: black;
+}
+
+.findOut {
+  color: red;
+  font-weight: normal;
+  font-size: .9em;
+}
+
+.navbar-nav {
+  font-size: .8em;
+}
+
+.nav-link {
+  margin: 0 .3vw;
+}
+
+.logo {
+  width: 24vh;
+  height: auto;
+}
+
+.contestForm {
+  padding: 4vh 0;
+  background-color: #00b2cd;
+}
+
+.betweenInputs {
+  margin: 0 1vw;
+}
+
+.text {
+  font-size: .7em;
+}
+
+input::placeholder {
+  font-size: .7em;
+}
+
+.submitBtn {
+  font-weight: bold;
+}
+
+.description {
+  padding: 4vh 0;
+  background-color: #f5f5f5;
+}
+
+.presented {
+  margin-bottom: .5rem;
+  font-weight: bold;
+}
+
+.lorem {
+  color: gray;
+  line-height: 2.7vh;
+}
+
+.footer {
+  background-color: black;
+  padding: 3vh 0;
+}
+
+.footerDiv {
+  border-left: 1px solid white;
+}
+
+.footerTitle {
+  font-size: .8em;
+  font-weight: bold;
+}
+
+.footerList {
+  list-style: none;
+  padding: 0;
+}
+
+.footerInput {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0 1vw;
+  margin-bottom: .5vh;
+  width: 14vw;
+}
+
+.footerSubmitBtn {
+  float: right;
+  border: none;
+  color: white;
+  background-color: #333333;
+  font-size: .7em;
+  transform: translateX(4vw);
+}
+
+@media (max-width: 745px) {
+  .footer {
+    padding: 0 1vw;
+  }
+
+  .footerSubmitBtn{
+    margin-top: 1vh;
+    transform: translateX(6.5vw);
+    float: none;
+    display: block;
+  }
+}
